@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.mycompany.camel.RouteXmlTest" time="10.48" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/ychopada/NotBackedUp/FUSE/new_Camel/Recipient List EIP/target/test-classes:/home/ychopada/NotBackedUp/FUSE/new_Camel/Recipient List EIP/target/classes:/home/ychopada/.m2/repository/org/apache/camel/camel-core/2.23.2.fuse-780036-redhat-00001/camel-core-2.23.2.fuse-780036-redhat-00001.jar:/home/ychopada/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-core-2.3.0.jar:/home/ychopada/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-impl-2.3.0.jar:/home/ychopada/.m2/repository/org/apache/camel/camel-test/2.23.2.fuse-780036-redhat-00001/camel-test-2.23.2.fuse-780036-redhat-00001.jar:/home/ychopada/.m2/repository/junit/junit/4.12.0.redhat-003/junit-4.12.0.redhat-003.jar:/home/ychopada/.m2/repository/org/hamcrest/hamcrest-core/1.3-redhat-1/hamcrest-core-1.3-redhat-1.jar:/home/ychopada/.m2/repository/org/slf4j/slf4j-api/1.7.22.redhat-2/slf4j-api-1.7.22.redhat-2.jar:/home/ychopada/.m2/repository/org/slf4j/slf4j-log4j12/1.7.22.redhat-2/slf4j-log4j12-1.7.22.redhat-2.jar:/home/ychopada/.m2/repository/log4j/log4j/1.2.17.redhat-3/log4j-1.2.17.redhat-3.jar:"/>
+    <property name="java.vm.vendor" value="Red Hat, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://www.redhat.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-4.el8.x86_64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/ychopada/NotBackedUp/FUSE/new_Camel/Recipient List EIP/target/surefire/surefirebooter2154568229451780149.jar /home/ychopada/NotBackedUp/FUSE/new_Camel/Recipient List EIP/target/surefire 2021-08-29T19-58-39_285-jvmRun1 surefire345013315641955378tmp surefire_04898567729029489666tmp"/>
+    <property name="surefire.test.class.path" value="/home/ychopada/NotBackedUp/FUSE/new_Camel/Recipient List EIP/target/test-classes:/home/ychopada/NotBackedUp/FUSE/new_Camel/Recipient List EIP/target/classes:/home/ychopada/.m2/repository/org/apache/camel/camel-core/2.23.2.fuse-780036-redhat-00001/camel-core-2.23.2.fuse-780036-redhat-00001.jar:/home/ychopada/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0/jaxb-core-2.3.0.jar:/home/ychopada/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0/jaxb-impl-2.3.0.jar:/home/ychopada/.m2/repository/org/apache/camel/camel-test/2.23.2.fuse-780036-redhat-00001/camel-test-2.23.2.fuse-780036-redhat-00001.jar:/home/ychopada/.m2/repository/junit/junit/4.12.0.redhat-003/junit-4.12.0.redhat-003.jar:/home/ychopada/.m2/repository/org/hamcrest/hamcrest-core/1.3-redhat-1/hamcrest-core-1.3-redhat-1.jar:/home/ychopada/.m2/repository/org/slf4j/slf4j-api/1.7.22.redhat-2/slf4j-api-1.7.22.redhat-2.jar:/home/ychopada/.m2/repository/org/slf4j/slf4j-log4j12/1.7.22.redhat-2/slf4j-log4j12-1.7.22.redhat-2.jar:/home/ychopada/.m2/repository/log4j/log4j/1.2.17.redhat-3/log4j-1.2.17.redhat-3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/ychopada"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-4.el8.x86_64/jre"/>
+    <property name="basedir" value="/home/ychopada/NotBackedUp/FUSE/new_Camel/Recipient List EIP"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/ychopada/NotBackedUp/FUSE/new_Camel/Recipient List EIP/target/surefire/surefirebooter2154568229451780149.jar"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-4.el8.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-4.el8.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-4.el8.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-4.el8.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-4.el8.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-4.el8.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-4.el8.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-4.el8.x86_64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_282-b08"/>
+    <property name="user.name" value="ychopada"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.18.0-305.10.2.el8_4.x86_64"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-4.el8.x86_64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/ychopada/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugzilla.redhat.com/enter_bug.cgi?product=Red%20Hat%20Enterprise%20Linux%208&amp;component=java-1.8.0-openjdk"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_282"/>
+    <property name="user.dir" value="/home/ychopada/NotBackedUp/FUSE/new_Camel/Recipient List EIP"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Red Hat, Inc."/>
+    <property name="java.vm.version" value="25.282-b08"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.282.b08-4.el8.x86_64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testCamelRoute" classname="com.mycompany.camel.RouteXmlTest" time="10.406">
+    <failure message="mock://file:work/cbr/output/others Received message count 0, expected at least 1" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: mock://file:work/cbr/output/others Received message count 0, expected at least 1
+	at com.mycompany.camel.RouteXmlTest.testCamelRoute(RouteXmlTest.java:67)
+]]></failure>
+    <system-out><![CDATA[[                          main] RouteXmlTest                   INFO  ********************************************************************************
+[                          main] RouteXmlTest                   INFO  Testing: testCamelRoute(com.mycompany.camel.RouteXmlTest)
+[                          main] RouteXmlTest                   INFO  ********************************************************************************
+[                          main] DefaultTypeConverter           INFO  Type converters loaded (core: 195, classpath: 0)
+[                          main] ceptSendToMockEndpointStrategy INFO  Adviced endpoint [file://work/cbr/input] with mock endpoint [mock:file:work/cbr/input]
+[                          main] DefaultCamelContext            INFO  Apache Camel 2.23.2.fuse-780036-redhat-00001 (CamelContext: camel-1) is starting
+[                          main] DefaultManagementStrategy      INFO  JMX is disabled
+[                          main] ceptSendToMockEndpointStrategy INFO  Adviced endpoint [file://work/Rlist/input] with mock endpoint [mock:file:work/Rlist/input]
+[                          main] ceptSendToMockEndpointStrategy INFO  Adviced endpoint [direct://test] with mock endpoint [mock:direct:test]
+[                          main] DefaultCamelContext            INFO  StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+[                          main] DefaultCamelContext            INFO  Route: route1 started and consuming from: file://work/Rlist/input
+[                          main] DefaultCamelContext            INFO  Route: route2 started and consuming from: direct://test
+[                          main] DefaultCamelContext            INFO  Total 2 routes, of which 2 are started
+[                          main] DefaultCamelContext            INFO  Apache Camel 2.23.2.fuse-780036-redhat-00001 (CamelContext: camel-1) started in 0.106 seconds
+[                          main] MockEndpoint                   INFO  Asserting: mock://direct:test is satisfied
+[                          main] MockEndpoint                   INFO  Asserting: mock://file:work/Rlist/input is satisfied
+[                          main] MockEndpoint                   INFO  Asserting: mock://file:work/cbr/output/others is satisfied
+[                          main] RouteXmlTest                   INFO  ********************************************************************************
+[                          main] RouteXmlTest                   INFO  Testing done: testCamelRoute(com.mycompany.camel.RouteXmlTest)
+[                          main] RouteXmlTest                   INFO  Took: 10.020 seconds (10020 millis)
+[                          main] RouteXmlTest                   INFO  ********************************************************************************
+[                          main] DefaultCamelContext            INFO  Apache Camel 2.23.2.fuse-780036-redhat-00001 (CamelContext: camel-1) is shutting down
+[                          main] DefaultShutdownStrategy        INFO  Starting to graceful shutdown 2 routes (timeout 10 seconds)
+[el-1) thread #2 - ShutdownTask] DefaultShutdownStrategy        INFO  Route: route2 shutdown complete, was consuming from: direct://test
+[el-1) thread #2 - ShutdownTask] DefaultShutdownStrategy        INFO  Route: route1 shutdown complete, was consuming from: file://work/Rlist/input
+[                          main] DefaultShutdownStrategy        INFO  Graceful shutdown of 2 routes completed in 0 seconds
+[                          main] DefaultCamelContext            INFO  Apache Camel 2.23.2.fuse-780036-redhat-00001 (CamelContext: camel-1) uptime 10.168 seconds
+[                          main] DefaultCamelContext            INFO  Apache Camel 2.23.2.fuse-780036-redhat-00001 (CamelContext: camel-1) is shutdown in 0.027 seconds
+]]></system-out>
+  </testcase>
+</testsuite>
