@@ -1,0 +1,5 @@
+com/mycompany/camel/CamelRoute.class
+com/mycompany/camel/xml/Subject.class
+com/mycompany/camel/Launcher.class
+com/mycompany/camel/java_to_xml.class
+com/mycompany/camel/xml/Student.class
