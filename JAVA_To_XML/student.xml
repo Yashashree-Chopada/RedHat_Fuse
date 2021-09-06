@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<student rollnumber="1">
+    <sname>Yashu</sname>
+    <subject>
+        <sname>JAVA</sname>
+    </subject>
+    <subject>
+        <sname>CPP</sname>
+    </subject>
+    <subject>
+        <sname>Python</sname>
+    </subject>
+</student>
