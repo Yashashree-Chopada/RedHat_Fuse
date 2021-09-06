@@ -1,0 +1,2 @@
+GenericFile[enrichTest.txt]:Hello
+ World!
