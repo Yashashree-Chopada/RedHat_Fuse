@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1630866104678
+Build-Jdk: 16.0.2
+Built-By: ychopada
+Bundle-Description: Camel Content-Based Router Example using the Java DS
+ L
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Camel Content-Based Router Example using the Java DSL [JSON
+ _To_JAVA]
+Bundle-SymbolicName: JSON_To_JAVA
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.mycompany.camel;uses:="org.apache.camel.builder";ver
+ sion="1.0.0",com.mycompany.pojo;version="1.0.0"
+Import-Package: com.mycompany.pojo,org.apache.camel.builder;version="[2.
+ 23,3)",org.apache.camel.component.jackson;version="[2.14,3)",org.apache
+ .camel.main;version="[2.23,3)",org.apache.camel.model;version="[2.23,3)
+ ",org.apache.camel.spi;version="[2.23,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.2.0.201605172007
