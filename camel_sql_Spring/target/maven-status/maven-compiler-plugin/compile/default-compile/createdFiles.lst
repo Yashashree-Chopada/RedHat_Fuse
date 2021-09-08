@@ -1,0 +1,4 @@
+com/mycamel/util/EmployeeMapper.class
+com/mycamel/main/CamelMain.class
+com/mycamel/domain/Employee.class
+com/mycamel/router/EmployeeRouter.class
