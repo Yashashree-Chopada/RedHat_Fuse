@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1635424920560
+Build-Jdk: 16.0.2
+Built-By: ychopada
+Bundle-Description: Camel Content-Based Router Example using the Java DS
+ L
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Camel Content-Based Router Example using the Java DSL [CSVT
+ est]
+Bundle-SymbolicName: CSVTest
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.mycompany.camel;uses:="org.apache.camel.builder";ver
+ sion="1.0.0"
+Import-Package: com.sun.istack.logging;version="[3.0,4)",org.apache.came
+ l;version="[2.23,3)",org.apache.camel.builder;version="[2.23,3)",org.ap
+ ache.camel.main;version="[2.23,3)",org.apache.camel.model;version="[2.2
+ 3,3)",org.apache.camel.model.dataformat;version="[2.23,3)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.2.0.201605172007
