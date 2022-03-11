@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd        http://camel.apache.org/schema/spring https://camel.apache.org/schema/spring/camel-spring-2.23.3.xsd">
+
+    <bean id="myProcessor" class="com.mycompany.MyProcessor"/>
+
+    <camelContext id="cbr-example-context" xmlns="http://camel.apache.org/schema/spring">
+
+        <route id="cbr-route">
+            <from id="_from1" uri="file:work/cbr/input"/>
+        <!-- <process ref="myProcessor"/>-->
+            <choice>
+                <when>
+                    <jsonpath>$.[?(@.Result.size() == 0)]</jsonpath>
+                    <!-- <log message="null (INT) value"/> -->
+                </when>
+                <otherwise>
+                    <log message="All have predefined values "/>
+                    <to uri="file:work/cbr/output"/>
+                </otherwise>
+            </choice>
+            <log id="_log5" message="Done processing ${file:name}"/>
+        </route>
+    </camelContext>
+</beans>
